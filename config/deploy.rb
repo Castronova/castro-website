@@ -6,7 +6,6 @@ set :deploy_to, "/var/www/hello"
 set :user, "castro"
 set :revision, "origin/master"
 
-run 'sudo /etc/init.d/apache2 restart'
 
 namespace :vlad do
   set :app_command, "/etc/init.d/apache2"
