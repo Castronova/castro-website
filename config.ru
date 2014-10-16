@@ -1,5 +1,14 @@
 require 'rubygems'
-require 'sinatra'
-require File.expand_path '../app.rb', __FILE__
+require 'bundler/setup'
 
-run Sinatra::Application
+Bundler.require(:default)
+
+use Rack::ConditionalGet
+use Rack::ETag
+
+require 'nesta/env'
+Nesta::Env.root = ::File.expand_path('.', ::File.dirname(__FILE__))
+
+require 'nesta/app'
+run Nesta::App
+
