@@ -1,2 +1,29 @@
-#TEST
+# About Me
 
+### Research Interests 
+My research is focused in the subfield of Water Resources engineering known as hydroinformatics. In general, my work emphasizes the synergy between hydrologic data and modeling applications, with a particular focus on integrated modeling solutions. One particular focus of my research is the management, supply, and sharing of data among models. My current work uses modern software technologies and community standards to solve hydrologic modeling problems with a specific interest in establishing mechanisms for data interoperability between independent software systems. It emphasizes model integration using a combination of data communication standards and web service standards. 
+
+### Professional Experience 
+In 2012, I accepted a post doctoral research position at the University of South Carolina under the advisement of <a target="_blank" href="http://www.ce.sc.edu/DeptInfo/Members/Faculty/goodall.html">Jonathan Goodall</a>.  . Part of my research during this appointment was evaluating the use of the Microsoft Azure cloud environment for model hosting. The product of this work is a web portal for <a target="_blank" href="http://swat.tamu.edu/"> Soil and Water Assessment Tool (SWAT)</a> model hosting, storage, and data visualization.
+
+Another aspect of my research is deriving a scalable watershed delineation algorithm.  As watershed areas become larger and elevation resolution becomes finer, it is apparent that our current delineation methods are not satisfactory.  By separating Digital Elevation Model (DEM) processing from the delineation procedure, an efficient algorithm was derived that leverages pre-processed <a target="_blank" href="http://www.horizon-systems.com/nhdplus/">NHD+</a> data.  This algorithm was found to be 2.5 times faster than <a target="_blank" href="http://www.esri.com/software/arcgis/arcgis-for-home">ArcGIS</a> and 2.7 times faster than <a target="_blank" href="http://hydrology.usu.edu/taudem/taudem5.0/index.html">TauDEM</a> when delineating a 39793 sq km basin.
+ 
+A more comprehensive list of my current and past work is provided on my <a href="/research">research</a> and <a href="/research_statement">research statement</a> pages. 
+
+### Education 
+I began my career in Water Resource Engineering at <a target="_blank" href="http://www.clarkson.edu/cee/index.html">Clarkson University</a>.  I earned my Bachelors of Science in 2007 and promptly continued my education at the University of South Carolina. There I earned my Masters of Science and Doctor of Philosophy degrees in 2011 and 2012, respectively. 
+
+The primary focus of my graduate work was investigating modes of communication between hydrologic models. This body of my research investigated how traditional hydrologic systems can be decomposed into independent software modules that communicate through standardized software interfaces. My work used component-based modeling and data communication standards, such as the <a target="_blank" href="http://www.OpenMI.org">OpenMI</a>, to build and simulate integrated hydrologic models. 
+
+<!---
+<p>I am originally from upstate New York. </p>
+<p> Growing up as child in the frozen tundra I occupied myself with many different sports.  However, I was most attracted to Ice Hockey.  It seemed like a proper choice since where I lived there was snow on the ground almost 9 months a year. I attended Clarkson University from the Fall of 2007 until Spring 2007.  Upon admission into Clarkson University, my hockey career upruptly ended.  </p>
+</div>
+
+<p>Earned a bachelors degree in Civil Engineering from <a href="clarkson.edu">Clarkson University</a> in 2007. </p>
+
+<p>My intrests are in ...</p>
+-->
+
+
+ 
