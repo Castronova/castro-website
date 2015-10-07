@@ -15,7 +15,7 @@ namespace :vlad do
     run "touch #{current_release}/tmp/restart.txt"
   end
 
-    # desc "Restarts Apache"
+    desc "Restarts Apache"
     remote_task :restart => :settings do
     run 'sudo /etc/init.d/apache2 restart'
   end
