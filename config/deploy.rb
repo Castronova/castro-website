@@ -1,7 +1,7 @@
-set :application, "hello"
+set :application, "webpage"
 set :repository, "git://github.com/Castronova/castro-website.git"
 set :domain, "castro@castro-ws.bluezone.usu.edu"
-set :deploy_to, "/var/www/research"
+set :deploy_to, "/var/www/webpage"
 
 set :user, "castro"
 set :revision, "origin/master"
